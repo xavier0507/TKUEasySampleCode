@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<ImageView
+				android:id="@+id/imgv_landscape"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:scaleType="fitXY"/>
+
+			<TextView
+				android:id="@+id/text_park_name"
+				tools:text="公園名稱: 二二八和平公園"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:ellipsize="end"
+				android:maxLines="2"/>
+
+			<TextView
+				android:id="@+id/text_landscape_name"
+				tools:text="景點名稱: 急公好義坊"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:maxLines="2"/>
+
+			<TextView
+				android:id="@+id/text_open_time"
+				tools:text="開放時間: 00:00~24:00"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:maxLines="2"/>
+
+			<TextView
+				android:id="@+id/text_intro"
+				tools:text="詳細介紹: 急公好義坊"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
